@@ -1,0 +1,17 @@
+{
+    "name": "Quran Reminder",
+    "description": "An extension that reminds you Messages of Allah in Quran",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "QuranReminder.html",
+        "default_title": "Quran Reminder"
+    }
+}
