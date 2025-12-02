@@ -186,3 +186,10 @@ async function showVerse(surah, ayah) {
 const randomSurah = getRandomSurah();
 const randomAyah = getRandomAyah(randomSurah);
 showVerse(randomSurah, randomAyah);
+
+const btn = document.getElementById('new-verse-btn');
+btn.addEventListener('click', () => {
+    const newSurah = getRandomSurah();
+    const newAyah = getRandomAyah(newSurah);
+    showVerse(newSurah, newAyah);
+});
